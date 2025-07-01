@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edição de imagem</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="main.js" defer type="module"></script>
+</head>
+<body>
+    <div class="container">
+        <input type="file" accept="image/*" id="inputFile">
+        <input type="range" id="range" class="range" max="50">
+        <ul class="menu">
+            <li id="menu" >Menu</li>
+            <li class="hidden">Borda <input type="range" id="rangeBorda" max="20"> <input type="color" name="" id="colorBorda"></li>
+            <li class="hidden">Sombra <input type="range" id="rangeSombra" max="10"> <input type="color" id="corSombra"></li>
+            <li class="hidden">Altura <input type="number" id="altura"> <button id="okAltura">OK</button></li>
+            <li class="hidden">Largura <input type="number" id="largura"> <button id="okLargura">OK</button></li>
+        </ul>
+        <img src="" alt="" id="imagem" class="imagem">
+        
+        <p id="text"></p>
+    </div>
+</body>
+</html>
