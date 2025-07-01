@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#text{
+    height: 300px;
+    width: 300px;
+    font-size: 2rem;
+    border-radius: 7px;
+}
+
+#btn {
+    font-size: 2rem;
+    border-radius: 7px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 2rem;
+}
