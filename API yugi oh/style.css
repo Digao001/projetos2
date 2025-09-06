@@ -1,0 +1,80 @@
+body {
+    background-image: url(img/fundo-yugi.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+   background-image: url(img/fundo-carta.webp);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    box-shadow: 1px 1px 5px black;
+    color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+.img img {
+    width: 250px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.card h2 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    color: #ffd700;
+}
+
+#mais {
+    font-size: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #111;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.img img:hover {
+    transform: scale(1.5);
+    transition: .5s;
+}
+
+.info{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+     white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.link a{
+    background-color: white;
+    border-radius: 10px;
+    padding: 3px;
+    color: blueviolet;
+    
+}
+
